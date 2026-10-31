@@ -52,7 +52,7 @@ Google Colab (GPU runtime):
 ```python
 from google.colab import drive; drive.mount('/content/drive')
 !pip install -q transformers
-!git clone https://github.com/<user>/<repo>.git
+!git clone https://github.com/Tempoxx/lyrics-melody-emotion.git
 %cd <repo>
 !python pipeline.py all --data-dir /content/drive/MyDrive/lyrics_project/data --out-dir /content/drive/MyDrive/lyrics_project/results
 ```
